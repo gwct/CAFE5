@@ -118,8 +118,7 @@ parameter) for a given data set. Briefly, CAFE5 can:
 
 -   Estimate a phylogeny from gene families or gene sequence
     alignments. CAFE5 also does not convert a phylogeny with
-    branches in expected substitutions per site into a time tree (an
-    ultrametric tree with branch lengths in time units). This task
+    branches in expected substitutions per site into a [time tree](#timetree). This task
     should be conducted by the user prior to CAFE5 analyses.
 
 -   Implement clustering algorithms that identify (or verify the
@@ -130,9 +129,12 @@ parameter) for a given data set. Briefly, CAFE5 can:
 -   Predict gene family function or infer enrichment of functional
     classes.
 
-### Notes about ultrametric trees and the interpretability of branch lengths
+<a id="timetree">
+### Time Trees
 
-This document stresses CAFE's required tree input be an **ultrametric time tree**. Ultrametric means that the distance
+**Ultrametric trees and the interpretability of branch lengths**
+
+CAFE's required tree input is an **ultrametric time tree**. Ultrametric means that the distance
 from each tip to the root is equal. A time tree is one in which the branch lengths are in units of real time (*e.g.* years,
 millions of years). By definition, a proper time tree is ultrametric.
 
