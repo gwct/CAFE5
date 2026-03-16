@@ -118,7 +118,7 @@ parameter) for a given data set. Briefly, CAFE5 can:
 
 -   Estimate a phylogeny from gene families or gene sequence
     alignments. CAFE5 also does not convert a phylogeny with
-    branches in expected substitutions per site into a [time tree](#timetree). This task
+    branches in expected substitutions per site into a [time tree](#time-trees). This task
     should be conducted by the user prior to CAFE5 analyses.
 
 -   Implement clustering algorithms that identify (or verify the
@@ -129,7 +129,6 @@ parameter) for a given data set. Briefly, CAFE5 can:
 -   Predict gene family function or infer enrichment of functional
     classes.
 
-<a id="timetree">
 ### Time Trees
 
 **Ultrametric trees and the interpretability of branch lengths**
